@@ -1,0 +1,35 @@
+""" this program is to compare 
+title lenght and citation count
+for a large data set of published 
+papers in major journals"""
+
+import os
+import csv
+import scipy.stats
+import scipy
+
+"""the steps are as follows
+1. read in the data file
+2. cut the datafile into the subset 
+   that were published in 2010
+3. Rank from greatest to least for
+   both citation number and title length
+4. Run Kendall tau on those ranks"""
+
+f = open(os.path.normcase(C:\Users\Patrick\Documents\Python\AllesinaLab-isc-e278c8656868\Python\data\Letchford_etal_2015_data.csv),"r")
+
+csvr = csv.reader(f)
+
+header = next(csv)
+print(header)
+
+my_data = list(csvr)
+
+f.close()
+
+my_data = scipy.array(my_data)
+
+subset = my_data[my_data[0] == '2010']]
+
+print(my_data.shape)
+print(subset.shape)

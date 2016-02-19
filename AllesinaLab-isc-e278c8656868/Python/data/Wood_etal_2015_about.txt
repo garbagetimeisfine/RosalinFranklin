@@ -1,0 +1,28 @@
+Data published by:
+
+Wood SA, Russell R, Hanson D, Williams RJ, Dunne JA (2015) Effects of spatial scale of sampling on food web structure. Ecology and Evolution, online in advance of print. http://dx.doi.org/10.1002/ece3.1640
+
+Data taken from:
+
+Wood SA, Russell R, Hanson D, Williams RJ, Dunne JA (2015) Data from: Effects of spatial scale of sampling on food web structure. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.g1qr6
+
+This is highly resolved food web for the marine intertidal ecosystem of the Sanak Archipelago in the Eastern Aleutian Islands, Alaska.
+
+The data is a collection of feeding relationships (i.e., consumer-resource pairs) sampled at different spatial locations. 
+
+Spatial scales are as follows:
+Q = Quadrant (339 different ones)
+T = Transect (39)
+S = Site (5)
+L = Locale (4)
+A = Archipelago (1)
+
+Each row contains:
+WebID: unique identifier for each web
+WebScale: Q/T/S/L/A
+WebUnit: number to identify individual transects/sites/locales [Not used here]
+PredTSN: unique identifier for the consumer species
+PreyTSN: unique identifier for the resource species
+PredName, PreyName: either taxonomic or common name.
+
+

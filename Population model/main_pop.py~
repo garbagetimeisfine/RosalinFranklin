@@ -1,0 +1,26 @@
+""" Central control program"""
+
+
+import init_pop
+import frequency
+import new_pop
+
+"""population = init_pop.with_a_bang(100, 0.52)
+new_population = new_pop.generation(population)
+print(new_population)
+print(frequency.freq(new_population))
+print(population)
+print(frequency.freq(population))"""
+
+def simulate_drift(N,p):
+    population = init_pop.with_a_bang(N, p)
+    fixation = False
+    num_generations = 0
+    while fixation == False:
+        distribution = frequency.freq(population)
+        if distribution['AA'] == N or distribution['aa'] == N:
+            print("An allele has gone to fixation in ", num_generations)
+            print("\n The genotype counts are: ", distribution)
+            fixation = True
+        num_generations += 1
+        population = new_pop.generation(population)

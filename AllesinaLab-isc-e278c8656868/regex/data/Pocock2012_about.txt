@@ -1,0 +1,27 @@
+Data published by:
+
+Pocock MJO, Evans DM, Memmott J (2012) The robustness and restoration of a network of ecological networks. Science 335 (6071): 973-977. http://dx.doi.org/10.1126/science.1214915
+
+Data taken from:
+
+Pocock MJO, Evans DM, Memmott J (2012) Data from: The robustness and restoration of a network of ecological networks. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.3s36r118
+
+
+Data description by the author:
+A network of networks in edgelist format. There are seven networks, comprising 11 animal groups linked, directly or indirectly, through plants (either flowers, vegetation or seeds). The 11 groups of animals comprised: those feeding on plants (butterflies and other flower visitors, aphids, seed-feeding insects, and granivorous birds and mammals) and their dependants (primary and secondary aphid parasitoids, leaf miner parasitoids, parasitoids of seed-feeding insects and rodent ectoparasites)
+	These networks were obtained from Norwood Farm, Somerset, UK (51.3128N 2.3206W) during 2007 and 2008. During our study, Norwood Farm was managed as an organic farm at relatively low intensity.
+	We sampled the networks in order to express all the species and interactions on the farm field site in the same units; that of abundance on the farm. Field sampling occurred in each of 10 habitats on the farm (some of which were different stages within the arable rotation).
+	Obtaining estimates of interaction strength involved a range of different sampling approaches in the field. It also involved the aggregation of the data collected over multiple habitats and multiple sampling periods. Estimates were summed across habitats and either summed across sampling periods (for insects, and in so doing we assumed the lifespan of an individual was less than the monthly sampling period) or averaged across sampling periods (for vertebrates and plants, and in so doing we assumed individuals had a continual presence on the farm for the duration of the study).
+	For most networks, interactions were quantified from field samples and then scaled up to the whole farm scale. For the seed-feeding birds, seed-feeding mammals and butteflies the networks were based on prior knowledge of their interactions (from the literature) and were quantified with models of foraging behavior.
+	*Full details of the network construction are in the Supplementary Online Material of the paper and we strongly recommend reference to these details before using the data.*
+
+Data:
+The edgelist presents all pairwise interactions (directly recorded or inferred) between taxa sampled on the farm.
+
+Data columns:
+'lower guild': the guild of the lower taxon.
+'upper guild': the guild of the upper taxon.
+'lower taxon': the scientific name of the lower taxon, to the level to which it was identified.
+'upper taxon': the scientific name of the upper taxon, to the level to which it was identified.
+'estimated interaction strength': the estimated interaction strength at the farm scale and for a single year. How this was calculated varies according to the network type and refer to the paper for full details.
+'direct interaction': whether the interaction was direct or not. Interactions that were not direct represent consumers of herbivores and their links to plants that would not otherwise be retained in the data. For example, it provides the information that parasitoid A was reared from an aphid on plant B. Counting the number of direct interactions gives the figure of 1501 reported in the paper.

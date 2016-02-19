@@ -1,0 +1,24 @@
+""" Code to compare the lenght of the titles of papers with their citation counts"""
+
+import csv
+
+f = open("C:/Users/Patrick/Documents/Python/AllesinaLab-isc-e278c8656868/Python/data/Letchford_etal_2015_data.csv","r")
+
+csvr = csv.reader(f)
+
+header = next(csvr)
+
+print("This is the header: ", header)
+
+papers2010 = []
+
+for line in csvr:
+    if line[0] == 2010:
+        papers2010.append(line)
+
+f.close()
+
+print(papers2010)
+
+#lenght = sorted(papers2010, 
+        
