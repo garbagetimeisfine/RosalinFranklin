@@ -11,8 +11,9 @@ def isprime(x):
 primes = [] 
 sumprime = 0
     
-for x in range(1,2000001):
+for x in range(1,2000000):
     if isprime(x):
         #primes.append(x)
         sumprime += x
-            
+
+print(sumprime - 1)            

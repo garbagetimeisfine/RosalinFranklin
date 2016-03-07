@@ -2,7 +2,7 @@
 import re
 import pyfasta
 
-f = pyfasta.Fasta("C:/Users/Patrick/Documents/Python/AllesinaLab-isc-e278c8656868/regex/data/Ecoli.fasta")
+f = pyfasta.Fasta("C:/Users/Patrick/Documents/Python/RosalinFranklin/AllesinaLab-isc-e278c8656868/regex/data/Ecoli.fasta")
 my_seqs = list(f.keys())
 
 print my_seqs[0]
